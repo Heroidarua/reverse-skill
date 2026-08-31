@@ -1,0 +1,17 @@
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --accent:#4f46e5;
+  --muted:#9ca3af;
+  --text:#e6eef8;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071022 0%,#0b1220 100%);color:var(--text)}
+.site-header{display:flex;align-items:center;gap:16px;padding:28px 32px;background:rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.02)}
+.site-header img{border-radius:6px}
+.site-header h1{margin:0;font-size:1.4rem}
+.subtitle{margin:0;color:var(--muted);font-size:0.9rem}
+.content{max-width:880px;margin:40px auto;padding:24px;background:rgba(255,255,255,0.02);border-radius:10px}
+.content h2{color:var(--text)}
+.btn{display:inline-block;padding:10px 14px;background:var(--accent);color:white;border-radius:8px;text-decoration:none}
+.site-footer{text-align:center;padding:18px;color:var(--muted);margin-top:28px}
